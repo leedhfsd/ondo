@@ -1,13 +1,13 @@
 # Ondo
 
 <div align="center">
-  <img src="./frontend/src/assets/images/readMe/OnDo_로고.png" width="350px">
+  <img src="./images/readMe/OnDo_로고.png" width="350px">
 </div>
 
 ## 삼성 청년 SW아카데미(SSAFY) 11th 공통프로젝트
 
 <div align="center">
-  <img src="./frontend/src/assets/images/readMe/OnDo.png" width="700px">
+  <img src="./images/readMe/OnDo.png" width="700px">
 </div>
 
 ## ✅ 프로젝트 진행 기간
@@ -29,12 +29,12 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://github.com/???"><img src="???" height="150" width="150" style="max-width: 100%;"> <br> ???</a></td>
+<td align="center"><a href="https://github.com/dpqls0356"><img src="https://avatars.githubusercontent.com/u/83651122?v=4" height="150" width="150" style="max-width: 100%;"> <br> @dpqls0356</a></td>
 <td align="center"><a href="https://github.com/KSE0514"><img src="https://avatars.githubusercontent.com/u/156265560?s=400&v=4" height="150" width="150" style="max-width: 100%;"> <br> @KSE0514</a></td>
 <td align="center"><a href="https://github.com/ybk1"><img src="https://avatars.githubusercontent.com/u/97382736?v=4" height="150" width="150" style="max-width: 100%;"> <br> @ybk1</a></td>
 <td align="center"><a href="https://github.com/leedhfsd"><img src="https://avatars.githubusercontent.com/u/89757700?v=4" height="150" width="150" style="max-width: 100%;"> <br> @leedhfsd</a></td>
 <td align="center"><a href="https://github.com/Sophia0705"><img src="https://avatars.githubusercontent.com/u/156265319?v=4" height="150" width="150" style="max-width: 100%;"> <br> @Sophia0705</a></td>
-<td align="center"><a href="https://github.com/???"><img src="https://avatars.githubusercontent.com/u/69388421?s=400&v=4" height="150" width="150" style="max-width: 100%;"> <br> @ellka02</a></td>
+<td align="center"><a href="https://github.com/JYOOJIN"><img src="https://avatars.githubusercontent.com/u/69388421?s=400&v=4" height="150" width="150" style="max-width: 100%;"> <br> @JYOOJIN</a></td>
 </tr>
 <tr>
 <td align="center"><b>팀장 | BE | FE</td>
@@ -79,7 +79,7 @@
 
 ## ✅ 시스템 아키텍쳐
 
-![아키텍쳐](./frontend/src/assets/images/readMe/ondo아키텍처_격자X.png)
+![아키텍쳐](./images/readMe/ondo아키텍처_격자X.png)
 
 ## ✅ 프로젝트 소개
 
@@ -125,8 +125,8 @@
         <td><strong> 로그인<br>(소셜 로그인 포함)</strong></td>
     </tr>
     <tr align="center"> 
-        <td> <img src="./frontend/src/assets/images/readMe/회원가입.gif" height="450"> </td>
-        <td> <img src="./frontend/src/assets/images/readMe/로그인.PNG" height="450"> </td>
+        <td> <img src="./images/readMe/회원가입.gif" height="450"> </td>
+        <td> <img src="./images/readMe/로그인.PNG" height="450"> </td>
         </td>
     </tr>
     <tr> 
@@ -137,9 +137,9 @@
         <td><strong> 게시판 </strong></td>
     </tr>
     <tr align="center"> 
-        <td> <img src="./frontend/src/assets/images/readMe/애니메이션.gif" height="450"> </td>
-        <td> <img src="./frontend/src/assets/images/readMe/홈화면.gif" height="450"> </td>
-            <td> <img src="./frontend/src/assets/images/readMe/게시판.jpg" height="450"> </td>
+        <td> <img src="./images/readMe/애니메이션.gif" height="450"> </td>
+        <td> <img src="./images/readMe/홈화면.gif" height="450"> </td>
+            <td> <img src="./images/readMe/게시판.jpg" height="450"> </td>
     </tr>
     <tr> 
         <td >
@@ -163,8 +163,8 @@
         <td><strong> 상담예약</strong></td>
     </tr>
     <tr align="center"> 
-        <td> <img src="./frontend/src/assets/images/readMe/챗봇.gif" height="450"> </td>
-        <td> <img src="./frontend/src/assets/images/readMe/상담 예약.gif" height="450"> </td>
+        <td> <img src="./images/readMe/챗봇.gif" height="450"> </td>
+        <td> <img src="./images/readMe/상담 예약.gif" height="450"> </td>
     </tr>
     <tr> 
         <td>
@@ -180,8 +180,8 @@
         <td><strong>미션 완료</strong></td>
     </tr>
     <tr align="center"> 
-        <td> <img src="./frontend/src/assets/images/readMe/미션.jpg" height="450"> </td>
-        <td> <img src="./frontend/src/assets/images/readMe/미션 완료.jpg" height="450"> </td>
+        <td> <img src="./images/readMe/미션.jpg" height="450"> </td>
+        <td> <img src="./images/readMe/미션 완료.jpg" height="450"> </td>
     </tr>
     <tr> 
         <td >
@@ -200,7 +200,7 @@
         <td><strong> 상담사 일정관리</strong></td>
     </tr>
     <tr align="center"> 
-        <td> <img src="./frontend/src/assets/images/readMe/상담사_일정관리.png" height="450"> </td>
+        <td> <img src="./images/readMe/상담사_일정관리.png" height="450"> </td>
     </tr>
     <tr> 
         <td>
@@ -212,7 +212,7 @@
         <td><strong> 상담사 상담 내역 확인/수정</strong></td>
     </tr>
     <tr align="center"> 
-        <td> <img src="./frontend/src/assets/images/readMe/상담사_상담내역확인.png" height="450"> </td>
+        <td> <img src="./images/readMe/상담사_상담내역확인.png" height="450"> </td>
     </tr>
     <tr> 
         <td>
@@ -292,7 +292,7 @@
 ### ERD
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="./frontend/src/assets/images/readMe/ONDO_ERD.png" alt="ERD" style="width: 100%;">
+    <img src="./images/readMe/ONDO_ERD.png" alt="ERD" style="width: 100%;">
 </div>
 
 ### 명세서
@@ -325,4 +325,4 @@
 
 |                          첫 회식                           |                          마지막 회식                           |
 | :--------------------------------------------------------: | :------------------------------------------------------------: |
-| ![첫 회식](./frontend/src/assets/images/readMe/clio_1.JPG) | ![마지막 회식](./frontend/src/assets/images/readMe/clio_2.JPG) |
+| ![첫 회식](./images/readMe/clio_1.JPG) | ![마지막 회식](./images/readMe/clio_2.JPG) |
