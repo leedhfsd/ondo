@@ -1,0 +1,70 @@
+.Loginpage {
+  height: 100vh;
+  padding: 30% 17%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.Loginpage > * {
+  width: 100%;
+}
+
+#Title {
+  font-size: 175%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+#login-id,
+#password {
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #dedede;
+  /* font-size: 15px; */
+}
+#login-id::placeholder,
+#password::placeholder {
+  font-size: 15px;
+}
+input[type="password"] {
+  font-family: "";
+}
+
+.Loginpage form {
+  width: 100%;
+}
+
+.Loginpage img {
+  width: 100%;
+}
+
+.Loginpage input::placeholder {
+  padding-left: 3%;
+  font-size: 10%;
+  font-style: italic;
+}
+
+.Loginpage input {
+  width: 100%;
+}
+
+.cross-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 15px 0px;
+  justify-content: center;
+}
+
+.cross-line div:nth-child(1),
+.cross-line div:nth-child(3) {
+  flex: 1;
+  /* border: 0.1px solid rgb(207, 207, 207); */
+  height: 0.1px;
+  background-color: gray;
+}
+.cross-line div:nth-child(2) {
+  margin: 0px 10px;
+}

@@ -1,0 +1,10 @@
+.Button_round {
+  border-radius: 30px;
+  border: 2px solid #3d3d3d;
+  opacity: var(--sds-size-stroke-border);
+  background: #ffd787;
+  box-shadow: 2px 2px 0px 0px #3d3d3d;
+  cursor: pointer;
+  font-size: 18px;
+  white-space: nowrap;
+}

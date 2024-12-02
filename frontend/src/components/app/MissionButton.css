@@ -1,0 +1,37 @@
+@keyframes daily-mission-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes special-mission-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.mission-button {
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.mission-button.daily-animate {
+  animation: daily-mission-animation 0.5s ease-in-out;
+}
+
+.mission-button.special-animate {
+  animation: special-mission-animation 0.5s ease-in-out;
+}

@@ -1,0 +1,82 @@
+.CreateGrid{
+  display: grid;
+}
+
+.CreateForm{
+  padding: 10px 17px 20px 17px;
+  display: flex;
+  height: 80vh;
+  max-height: max-content;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px black solid;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: -4px 6px 0px 0px #001429;
+  /* gap: 3%; */
+}
+
+.emptybox{
+  height: 20vh;
+  background-color: #fff9e900;
+}
+
+.CF-Title {
+  /* width: 100%; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+}
+/* .CreateForm div * {
+  width: 100%;
+} */
+ .CF-Title input {
+  width: 100%;
+ }
+
+#CreateTitle{
+  font-size: 140%;
+  height: 50px;
+  width:80%;
+}
+
+#CreateTitle:focus{
+  outline: none;
+}
+
+#CreateTitle::placeholder {
+  color: black;
+}
+
+.CreateForm > textarea{
+  width: 100%;
+  height: 80%;
+  background-color: #BDECEB;
+  padding: 5px 10px;
+  font-size: 18px;
+  resize: none;
+  border-radius: 10px;
+}
+
+.CreateForm > textarea:focus{
+  outline: none;
+}
+
+.CreateForm > textarea::placeholder {
+  color: black;
+}
+
+#AddImage{
+  background-color: #BDECEB;
+  border-radius: 10px;
+  /* display: none; */
+  padding: 5px 10px;
+}
+
+#CreateBtn{
+  width: 10px;
+}

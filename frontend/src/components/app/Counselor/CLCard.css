@@ -1,0 +1,134 @@
+.CounselorPageTop {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+#CLCard-disable {
+  background-color: #3d3d3d;
+  width: 100%;
+  height: 100%;
+}
+
+.CLCard {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -4px 6px 0px 0px #001429;
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 3% 5%;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+.cancel-button {
+  cursor: pointer;
+  font-size: 90%;
+  width: 64px;
+  height: 35px;
+  border-radius: 25px;
+  border: 2px solid #3d3d3d;
+  opacity: var(--sds-size-stroke-border);
+  background: #ffd787;
+  box-shadow: -3px 3px 0px 0px #3d3d3d;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  transition:
+    background 0.1s ease,
+    transform 0.3s ease;
+}
+
+.cancel-button:hover {
+  outline: none;
+  background: #e0be7a;
+}
+
+.cancel-button:active {
+  outline: none;
+  background: #e0be7a;
+  transform: translateY(2px);
+}
+
+#CL-Date {
+  font-size: 130%;
+}
+
+.CLCardIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  text-align: left;
+}
+.CLCardIn > img {
+  width: 40%;
+  height: 30%;
+  border-radius: 20px;
+}
+.CLCardIn > div {
+  flex: 1;
+}
+
+#CS-CounselorName {
+  font-size: 110%;
+  white-space: nowrap;
+}
+
+#CS-Counselorfield {
+  font-size: 90%;
+}
+
+#CS-Counselorintro {
+  font-size: 90%;
+  color: rgb(163, 163, 163);
+}
+
+/* .CLCardIn > img {
+  border-radius: 100%;
+  border: 1px black solid;
+  width: 35%;
+  background-color: white;
+} */
+
+.CS-CardFooter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#DdayBtn {
+  width: 85%;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid #3d3d3d;
+  opacity: var(--sds-size-stroke-border);
+  background: #ed9c9f;
+  box-shadow: -3px 3px 0px 0px #3d3d3d;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  transition:
+    background 0.1s ease,
+    transform 0.3s ease;
+}
+
+#DdayBtn:hover {
+  outline: none;
+  background: #d88d91;
+}
+
+#DdayBtn:active {
+  outline: none;
+  background: #d88d91;
+  transform: translateY(2px);
+}
+#DdayBtn * {
+  font-size: 80%;
+}

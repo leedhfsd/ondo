@@ -1,0 +1,75 @@
+.Mypage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#My-notice {
+  font-size: 150%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  align-items: center;
+  /* height: 50px;
+  padding: 10px;
+  margin: 10px 0px; */
+}
+#My-notice img {
+  /* height: 100%;
+  position: relative;
+  left: 85%; */
+}
+
+.MypageCenter {
+  padding: 40px 60px 0px 60px;
+  /* padding-top: 10vh; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 20px;
+  /* justify-content: space-around; */
+  flex-grow: 1; /* 중심 콘텐츠가 남은 공간을 채우도록 설정 */
+}
+
+.UserCardBack {
+  height: 35vh;
+  padding-top: 5%;
+  background-color: #6abfb4;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* width: 100%; */
+}
+
+.UserCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff2ee;
+  box-shadow: 0px 4px 0px 0px #315853;
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 5% 5%;
+  border: 1px black solid;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.UserInfo {
+  text-align: center;
+  flex: 1;
+}
+#MP-UserName {
+  font-size: 110%;
+}
+#MP-Email {
+  font-size: 90%;
+}
+
+.UserCard > img {
+  border-radius: 100%;
+  border: 1px black solid;
+  width: 35%;
+}

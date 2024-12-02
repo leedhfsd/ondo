@@ -1,0 +1,85 @@
+.slick-list {
+  height: 180px;
+  width: 390px;
+}
+
+.slick-track {
+  height: 180px;
+  width: 390px;
+}
+.ConSelorCardIn {
+  /* margin-bottom: 10px; */
+}
+.CounselorInfo {
+  display: flex;
+  gap: 5px;
+}
+
+#CS-Btn {
+  margin-top: 3px;
+}
+
+.slick-list {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+/* .slick-dots */
+.slick-dots {
+  /* position: relative; */
+  bottom: 15px !important;
+  z-index: 2;
+  width: 100% !important;
+  /* left: 22% !important; */
+  /* margin: 0 auto; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.CSCardFooter {
+  margin: 0px;
+}
+
+.slick-dots > li {
+  /* width: 10px; */
+  margin: 0 !important;
+  /* bottom: 35px; */
+  position: absolute;
+}
+.slick-dots > li > button {
+  /* height: 10px; */
+  /* width: 10px; */
+}
+#MP-CounselorName {
+  white-space: nowrap;
+}
+#MP-Counselorintro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 캐러셀 원 누르면 이동하게 하고 싶어서 해보는 것
+.carousel_pagination {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.carousel_circle {
+  width: 10px;
+  height: 10px;
+  background-color: #aaa;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel_circle.active {
+  background-color: #333;
+} */

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/public/assets/icons/favicon-76.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ondo</title>
+
+    <!-- PWA: manifest.json 연결 -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- PWA: 테마 색상 -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- PWA: 안드로이드용 추가 메타 태그 -->
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- PWA: 홈 화면 아이콘 (예시, 실제 아이콘으로 교체 필요) -->
+    <link rel="icon" sizes="192x192" href="/icon-192x192.png" />
+    <link rel="icon" sizes="512x512" href="/icon-512x512.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&family=Jua&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- PWA: Service Worker 등록 -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then((registration) => {
+              console.log("Service Worker registered: ", registration);
+            })
+            .catch((registrationError) => {
+              console.log(
+                "Service Worker registration failed: ",
+                registrationError
+              );
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

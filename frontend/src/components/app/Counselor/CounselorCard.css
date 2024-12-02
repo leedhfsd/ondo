@@ -1,0 +1,180 @@
+.CounselorPageTop {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.slick-active {
+  /* position: absolute; */
+  /* bottom: 40px; */
+  /* position: absolute; */
+}
+
+/* .ConSelorCardIn{
+  display: flex;
+  float: left;
+}
+
+.CSCardFooter{
+  float: left;
+} */
+
+.CounselorCard {
+  position: relative;
+  background-color: white;
+  box-shadow: -4px 6px 0px 0px #001429;
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 3% 5%;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+.CounselorCard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.ConSelorCardIn {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  height: 100%;
+}
+
+.CS-Date {
+  font-size: 130%;
+}
+.CounselorInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  height: 100%;
+}
+
+#MP-CounselorName {
+  font-size: 110%;
+}
+
+#MP-Counselorfield {
+  font-size: 90%;
+}
+
+#MP-Counselorintro {
+  font-size: 90%;
+  color: rgb(163, 163, 163);
+}
+
+.ConSelorCardIn > img {
+  border-radius: 100%;
+  border: 1px black solid;
+  width: 35%;
+  background-color: white;
+}
+
+.OptionSelect {
+  background-color: #fff9e9;
+  height: 40px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  font-size: 120%;
+  align-items: center;
+  justify-content: center;
+  gap: 12%;
+}
+.OptionSelect > div > input {
+  accent-color: black;
+}
+
+.FilterSearch {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.FS-Filter {
+  background-color: #e4e8e8;
+  border: 3px rgb(139, 139, 139) solid;
+  padding: 5px 10px;
+  font-size: 90%;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.FS-Filter * {
+  text-align: center;
+}
+
+.FS-Search {
+  display: flex;
+  background-color: white;
+  padding: 5px 10px;
+  border: 3px rgb(139, 139, 139) solid;
+  border-radius: 30px;
+  width: 75%;
+}
+.FS-Search > input {
+  width: 100%;
+}
+.FS-Search > input:focus {
+  outline: none;
+}
+.FS-Search > input::placeholder {
+  padding-left: 2px;
+  font-size: 80%;
+}
+
+/* 캐러셀 중앙 버튼 */
+.carousel_pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.carousel_circle {
+  width: 10px;
+  height: 10px;
+  background-color: #aaa;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel_circle.active {
+  background-color: #333;
+}
+
+.CSCardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+#DdayBtn {
+  z-index: 100;
+  width: 85%; /* 버튼 너비 고정 */
+  height: 35px; /* 버튼 높이 고정 */
+  border-radius: 30px;
+  border: 2px solid #3d3d3d;
+  opacity: var(--sds-size-stroke-border);
+  background: #ed9c9f;
+  box-shadow: -3px 3px 0px 0px #3d3d3d;
+  cursor: pointer;
+  font-size: 18px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; /* 오른쪽으로 정렬 */
+}
+#DdayBtn * {
+  font-size: 80%;
+}

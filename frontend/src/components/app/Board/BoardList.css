@@ -1,0 +1,22 @@
+.pagination-button {
+    padding: 5px 5px;
+    font-size: 12px;
+    width: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
+
+  .pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    justify-content: space-around;
+  }

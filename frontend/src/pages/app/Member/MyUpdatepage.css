@@ -1,0 +1,108 @@
+/* 기존 스타일 유지 */
+.UpdatePage {
+  position: relative;
+  padding: 15% 10%;
+}
+
+#JoinForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.JoinProfile {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.JoinProfile > img {
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 100%;
+}
+
+input[type="password"] {
+  font-family: "";
+}
+
+#JoinCamera {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* 모달 관련 새로운 스타일 */
+.delete-account-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.delete-account-modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.delete-account-modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.delete-account-modal-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.delete-account-modal-button-container {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  gap: 10px; /* 버튼 사이의 간격 */
+  margin-top: 1rem;
+}
+
+.delete-account-modal-button {
+  padding: 0.5rem 1rem; /* 패딩을 줄임 */
+  font-size: 0.9rem; /* 폰트 크기를 줄임 */
+  width: 70px; /* 버튼의 너비를 고정 */
+  margin: 0 5px; /* 버튼 사이의 간격 추가 */
+}
+
+.delete-account-modal-button-confirm {
+  background-color: #61C0BF;
+  color: white;
+}
+
+.delete-account-modal-button-cancel {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.delete-account-modal-button:hover {
+  opacity: 0.9;
+}
+
+

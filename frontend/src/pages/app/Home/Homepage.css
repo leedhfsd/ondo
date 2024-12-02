@@ -1,0 +1,132 @@
+/* 기본적으로 페이지 전체를 Flexbox로 설정 */
+.homepage {
+  /* background-image: url(./../../../assets/images/home_back.png); */
+  /* background-image: url(./../../../assets/images/home_back.jpg); */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 페이지 전체 높이를 차지하도록 설정 */
+  position: relative;
+  /* height: 100vh;
+  width: 100vw;
+  background-repeat : no-repeat;
+  background-size : cover; */
+}
+
+.home-content {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10vh; */
+  padding-top: 29%;
+}
+
+.charaInfo {
+  z-index: 99;
+  background-color: rgb(255, 255, 255, 0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border: 3px rgb(253, 167, 154) solid;
+  border-radius: 20px;
+  gap: 12px;
+  padding: 15px 0px;
+}
+
+#char-name {
+  font-size: 130%;
+}
+
+#thermometer {
+  position: absolute;
+  /* top: 40%; */
+  top: 41vh;
+  left: 30px;
+  height: 40%;
+}
+
+#back-img {
+  position: absolute;
+  overflow: hidden;
+  height: 90%;
+  /* height: 720px; */
+  z-index: 0;
+}
+
+/* 중심 콘텐츠가 Flex-grow로 확장되도록 설정 */
+.Char-ballon {
+  position: absolute;
+  /* padding: 30px; */
+  /* top: 35vh; */
+  /* display: inline-block; */
+  width: 240px;
+  bottom: 48vh;
+  /* left: 10vh; */
+  /* width: 100%; */
+  left: 36%;
+  flex-grow: 1; /* 중심 콘텐츠가 남은 공간을 채우도록 설정 */
+}
+
+.Char-daram {
+  position: absolute;
+  /* padding: 30px; */
+  left: 24%;
+  /* top: 57%; */
+  bottom: 20%;
+}
+
+/* 하단에 고정된 Footer */
+#footer {
+  flex-shrink: 0; /* Footer가 축소되지 않도록 설정 */
+}
+
+.centerChara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* gap: 1vh; */
+}
+
+.chatBtn {
+  z-index: 101;
+  position: absolute;
+  left: 80%;
+  /* top: 75%; */
+  bottom: 16%;
+  /* bottom: 17vh; */
+}
+
+.ballon {
+  /* display: none; */
+  /* position: absolute; */
+  width: 205px;
+  height: 40px;
+  left: 448px;
+  bottom: 62px;
+  background: #484848;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 12.8px;
+}
+
+/* 
+.ballon:after {
+  border-top: 10px solid #484848;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 160px;
+} */
+
+#footer {
+  /* position: fixed; */
+  /* left: 96%; */
+  /* top: 100px; */
+}

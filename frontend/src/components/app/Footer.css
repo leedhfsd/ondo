@@ -1,0 +1,38 @@
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  background-color: #ed9c9f;
+  transform: translateY(0%);
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+footer div {
+  background-color: #fff2ee;
+  border-radius: 17px;
+  box-shadow: 0px 4px 0px 0px #fcc5b3;
+  display: flex;
+  width: 70px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px black solid;
+}
+
+#footerwrap {
+  bottom: 0;
+  position: relative;
+  transform: translateY(-100%);
+}

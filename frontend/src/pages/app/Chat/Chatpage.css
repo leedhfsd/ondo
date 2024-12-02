@@ -1,0 +1,149 @@
+.Chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.CharacterName {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.CharacterName img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.ChatContentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ChatContent {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 15px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ChatContent::-webkit-scrollbar {
+  display: none;
+}
+
+.load-more-button {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  align-self: center;
+}
+
+.ChatScreen {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin-bottom: 10px;
+}
+
+.message-container.user {
+  align-self: flex-end;
+}
+
+.message-container.bot {
+  align-self: flex-start;
+}
+
+.user-message,
+.bot-message {
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.user-message {
+  background-color: #bdeceb;
+  color: #000000;
+}
+
+.bot-message {
+  background-color: #fae6e6;
+  color: #000000;
+}
+
+.message-time {
+  font-size: 11px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.user-message + .message-time {
+  text-align: right;
+}
+
+.ChatboxWrapper {
+  padding: 10px;
+}
+
+.Chatbox {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #fae6e6;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.Chatbox input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.Chatbox input:focus {
+  outline: none;
+}
+
+.Chatbox img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+
+.loading-indicator {
+  text-align: center;
+  padding: 10px;
+  color: #888;
+}
+
+.date-separator {
+  text-align: center;
+  padding: 10px 0;
+  color: #888;
+  font-size: 12px;
+}

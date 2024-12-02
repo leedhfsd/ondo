@@ -1,0 +1,168 @@
+.BoardDetail {
+  /* height: 100%;
+  width: 80%; */
+  border: 2px #6abfb4 solid;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 7%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 4px -6px 0px 0px #6abfb4;
+}
+
+.DetailTitle .action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.DetailTitle .action-buttons button {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+#boardtitle {
+  /* width: 180%; */
+}
+
+.DetailTitle {
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DetailUserInfo {
+  width: 75%
+}
+
+.DetailUserInfo p {
+  margin: 0px 4px;
+  width: 40%;
+}
+.DetailUserInfo img {
+  /* margin: 0px 4px;
+  border-radius: 100%;
+  width: 20%; */
+  width: 20%;  /* 고정 크기 사용 */
+  height: 20%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* .DetailCreate * {
+  font-size: 90%;
+  margin: 0px 4px;
+} */
+
+.DetailCreate {
+  /* display: flex;
+  align-items: center; */
+}
+
+.DetailCreate p {
+  text-align: right;
+  font-size: 16px;
+  color: #666;
+}
+
+.DetailDate {
+  padding: 10px ;
+  border-top: 1px #b0b0b0 solid;
+  border-bottom: 1px #b0b0b0 solid;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.DetailDate * {
+  display: flex;
+  align-items: center;
+}
+
+.DetailContent {
+  padding: 15px 30px;
+  word-break: break-all;
+}
+
+.CommentList {
+  height: 100%;
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CmtList {
+  width: 90%;
+}
+
+#comment-line {
+  border-left: 3px dashed #6abfb4;
+  height: auto;
+  /* height: 500px; */
+  /* left: 50%; */
+  /* margin-left: -3px; */
+  /* top: 0; */
+}
+
+.CommentForm {
+  /* position: ; */
+  top: 100px;
+  width: 86%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 2px #fda79a solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CommentForm > textarea {
+  padding: 0px 10px;
+  font-size: 18px;
+  width: 90%;
+  resize: none;
+}
+
+.CommentForm ::-webkit-scrollbar {
+  display: none;
+}
+
+.CommentForm > textarea:focus {
+  outline: none;
+}
+
+.emptybox2 {
+  height: 2vh;
+  background-color: #fff9e900;
+}
+
+/* 댓글 스크롤 */
+/* 스크롤바 구현하는 중 조금 더 손 봐야함 */
+
+#CommentScroll {
+  overflow-y: scroll;
+  /* display: grid; */
+}
+/* 
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+} */
+#CommentScroll {
+  /* width: 100%; */
+  height: 100vh;
+  /* margin: 0 auto; */
+  overflow-y: scroll;
+  /* gap: 25px; */
+}
+
+.DetailScroll ::-webkit-scrollbar {
+  /* display: none; */
+}

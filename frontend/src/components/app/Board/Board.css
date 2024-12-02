@@ -1,0 +1,66 @@
+.BoardCard {
+  width: 100%;
+  margin-top: 25px;
+  width: 100%;
+  min-height: 100px;
+  height: 100%;
+  border: 1px black solid;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 5px 0px 0px #6ABFB4;
+  word-break: break-all;
+}
+
+.BoardTitle * {
+  display: flex;
+  align-items: center;
+}
+
+.BoardTitle {
+  padding: 7px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-break: break-all;
+}
+#BD-Title{
+  max-width: 94px; /* 여기서 100px을 적절한 너비로 설정하세요 */
+
+}
+.BoardTitle p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.BoardContent {
+  font-size: 85%;
+  border-top: 1px black solid;
+  padding: 7px 17px;
+  word-break: break-all;
+}
+
+.BoardContent p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.BoardCreate{
+  display: flex;
+  align-items: center;
+}
+
+.BoardCreate > p {
+  font-size: 14px;
+}
+
+.icon-margin {
+  margin-right: 8px;
+}
+
+.inline-text {
+  display: inline;
+}

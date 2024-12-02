@@ -1,0 +1,64 @@
+#Namepage{
+  z-index: 100;
+}
+
+.Name-content{
+  z-index: 100;
+}
+
+.before-edit{
+  display: flex;
+  align-items: center;
+  font-size: 130%;
+  gap: 10px;
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+
+.name-edit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* margin: 0 auto; */
+  gap: 10px;
+}
+.name-edit > input{
+  border: 1px black solid;
+  height: 30px;
+  border-radius: 6px;
+  padding-left: 10px;
+  width: 60%;
+}
+.name-edit > div{
+  height: 40px;
+}
+.name-edit > div > button{
+  width: 85%; /* 버튼 너비 고정 */
+  height: 35px; /* 버튼 높이 고정 */
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  height: 100%;
+  border: 2px solid #3D3D3D;
+  opacity: var(--sds-size-stroke-border);
+  background: #FFD787;
+  box-shadow: 2px 2px 0px 0px #3D3D3D;
+  cursor: pointer;
+  font-size: 18px;
+  white-space: nowrap;
+}
+.name-edit > div > button> p{
+  /* margin-bottom: 10px; */
+}
+/* #name-bottom{
+  z-index: 0;
+  position: absolute;
+  top: 80%;
+} */
+
+/* #name-back{
+  background-image: url(./../../assets/images/name_bottom.png);
+} */

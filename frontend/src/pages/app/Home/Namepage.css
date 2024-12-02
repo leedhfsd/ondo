@@ -1,0 +1,46 @@
+
+
+.name-content{
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 20%;
+  left: 23%;
+  gap: 18px;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+}
+
+#name-chara{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#name-bottom{
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  background-color: #FEF9EF;
+  width: 150%;
+  height: 30%;
+  left: -20%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+#NameBack{
+  z-index: 1;
+  background-color: #FFD787;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#NameBackImg{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 67%;
+}

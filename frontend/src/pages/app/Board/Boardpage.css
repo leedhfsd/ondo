@@ -1,0 +1,115 @@
+.scroll{
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 93px;
+  /* padding:0% 11%; */
+}
+.board-padding{
+  padding:0 11%;
+}
+/* 전체 페이지를 Flexbox로 설정 */
+.BoardScroll {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* overflow-y: scroll; */
+}
+
+/* 페이지의 컨텐츠 영역을 Flex-grow로 설정 */
+.BoardContentContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.BoardContentList {
+  flex-grow: 1;
+  overflow-y: auto; /* 스크롤 가능하게 설정 */
+}
+
+.BoardHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:10%;
+  padding-bottom:8%;
+  font-size: 130%;
+}
+
+.BoardHeader p {
+  position: relative;
+  font-size: 18px;
+  /* left: 5%; */
+}
+
+
+.BoardSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BoardSearch > div {
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #bfa1ff;
+  border: 1px black solid;
+  display: flex;
+  background-color: white;
+  padding: 3%;
+}
+.BoardSearch>div>div{
+  margin-right: 10px;
+}
+.BoardSearch > div:nth-child(1){
+  flex: 1;
+  margin-right: 10px;
+}
+.BoardSearch > div > form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+
+
+.BoardSearch > div * {
+  display: flex;
+  justify-content: space-around;
+}
+
+.BoardSearch input {
+  /* width: 70%; */
+  margin-left: 10%;
+}
+
+.BoardSearch input:focus {
+  outline: none;
+}
+
+.emptybox3 {
+  height: 120px;
+  background-color: #fff9e900;
+}
+
+.BoardScroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.BoardScroll::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.BoardScroll::-webkit-scrollbar-track {
+  background: rgb(237, 237, 237);
+  border-radius: 10px;
+}
+
+/* Footer 고정 */
+#footer {
+  flex-shrink: 0;
+}

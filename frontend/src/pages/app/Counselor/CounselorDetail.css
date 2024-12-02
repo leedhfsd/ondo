@@ -1,0 +1,51 @@
+/* .CD-header{
+  display: flex;
+  align-items: center;
+  justify-content: f;
+} */
+.scroll{
+  position: relative;
+}
+.scroll > p {
+  text-align: center;
+  padding: 7% 0%;
+  font-size: 150%;
+}
+#CD-back{
+  position: absolute;
+  padding-top: 11%;
+  padding-left: 4%;
+}
+
+
+.CD-Card{
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 20px;
+  box-shadow: 0px 6px 0px 0px #ED9C9F;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+.CD-Card > div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#CD-name{
+  /* font-weight: ; */
+}
+
+.Career{
+  text-align: left;
+}
+
+#CD-line{
+  border: 1px rgb(183, 183, 183) solid;
+  width: 80%;
+}

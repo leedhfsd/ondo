@@ -1,0 +1,43 @@
+.balloon-container {
+  display: inline-block;
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  width: 180px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  /* border: 4px salmon ridge; */
+}
+.balloon-container:before {
+  content: "";
+  position: absolute;
+  background: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  bottom: -30px;
+  left: 65px;
+  /* border: 4px salmon ridge; */
+}
+.balloon-container:after {
+  content: "";
+  position: absolute;
+  background: #ffffff;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  bottom: -50px;
+  left: 50px;
+  /* border: 4px salmon ridge; */
+}
+
+.balloon-text {
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
